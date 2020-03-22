@@ -24,4 +24,17 @@ Navigate to the link, enter random text in firstname, lastname and address field
 14. Wait for a minute or so for the Canary to start and execute. 
 
 # Explore Canary results
-1. 
+1. Navigate to [Canaries home page](https://console.aws.amazon.com/cloudwatch/home#synthetics:canary/list)
+2. Click on the Canary you created, which will take you to the **Summary** page
+![Canary details](images/5.png)
+3. Change the durartion to **1 hr**
+4. Based on the execution result status, you will see either Blue or Red dots.Blue indicates a successful respose, while Red indicates a failure scenario.
+5. Click on a dot and check out the **Screenshots** tab. Scroll down to see all the scrrenshots the Canary took as part of the execution process.
+6. Go to **HAR File** tab and check out the HTTP Archive data for the request and responses from the application
+7. Go to **Logs** tab to see the details on each execution step. In particular, pay attention to how the error details as shown below. If you're exploring a failed result
+![Error](images/6.png)
+8. Now go to **Metrics** tab at the top left. Here you will see the Lambda execution metric widgets. This shows details about the Lambda function that was executed as part of the Canary.
+9.Navigate to **Configuration** tab and check out more details about the Canary and the Canary script
+10. Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home#metricsV2:). Click on **CloudWatchSynthetics** namespace
+10.
+![](images/7.png)
