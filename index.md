@@ -1,10 +1,10 @@
-# Create a Canary
-> We will be creating a Canary to test this simple user submission form - http://addressupdater-2049029495.us-east-1.elb.amazonaws.com/ 
-> 
-> Navigate to the link, enter random text in firstname, lastname and address fields. Click on **Update address** button. Repeat it a few times and you will observe that the page randomly says *Unable to update address* which we consider as failure. Our goal is to create a Canary that will identify the failure scenarios and record results automatically.
->
-> ![results](images/4.png)
+# Introduction
+We will be creating a Canary to test this simple user submission form - http://addressupdater-2049029495.us-east-1.elb.amazonaws.com/ 
 
+Navigate to the link, enter random text in firstname, lastname and address fields. Click on **Update address** button. Repeat it a few times and you will observe that the page randomly says *Unable to update address* which we consider as failure. Our goal is to create a Canary that will identify the failure scenarios and record results automatically.
+
+![results](images/4.png)
+# Create a Canary
 1. Navigate to [CloudWatch Synthetics](https://console.aws.amazon.com/cloudwatch/home#synthetics:)
 2. Click on **Canaries**
 3. Click **Create Canary**
