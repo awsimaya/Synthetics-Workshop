@@ -30,7 +30,7 @@ Navigate to the link, enter random text in firstname, lastname and address field
 4. Based on the execution result status, you will see either Blue or Red dots.Blue indicates a successful respose, while Red indicates a failure scenario.
 5. Click on a dot and check out the **Screenshots** tab. Scroll down to see all the scrrenshots the Canary took as part of the execution process.
 6. Go to **HAR File** tab and check out the HTTP Archive data for the request and responses from the application
-7. Go to **Logs** tab to see the details on each execution step. In particular, pay attention to how the error details as shown below. If you're exploring a failed result
+7. Go to **Logs** tab to see the details on each execution step. In particular, pay attention to how the error details as shown below. If you're exploring a failed result, you should see log entries similar to the one below
 ![Error](images/6.png)
 8. Now go to **Metrics** tab at the top left. Here you will see the Lambda execution metric widgets. This shows details about the Lambda function that was executed as part of the Canary.
 9.Navigate to **Configuration** tab and check out more details about the Canary and the Canary script
