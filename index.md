@@ -36,5 +36,6 @@ Navigate to the link, enter random text in firstname, lastname and address field
 8. Now go to **Metrics** tab at the top left. Here you will see the Lambda execution metric widgets. This shows details about the Lambda function that was executed as part of the Canary.
 9.Navigate to **Configuration** tab and check out more details about the Canary and the Canary script
 10. Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home#metricsV2:). Click on **CloudWatchSynthetics** namespace
-10.
+10.Click on any dimension to check out the metrics the Canary is publishing. As always, you can click on a metric to create line graphs and also setup Anomaly Detection by clicking on the graph icon
 ![](images/7.png)
+![](images/8.png)
