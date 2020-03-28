@@ -5,7 +5,7 @@ Navigate to the link, enter random text in firstname, lastname and address field
 
 ![results](images/4.png)
 # Create a Canary
-1. Navigate to [CloudWatch Synthetics](https://console.aws.amazon.com/cloudwatch/home#synthetics:)
+1. Navigate to [CloudWatch Synthetics](https://us-east-2.console.aws.amazon.com/cloudwatch/home#synthetics:)
 2. Click on **Canaries**
 3. Click **Create Canary**
 ![Create Canary](images/1.png)
