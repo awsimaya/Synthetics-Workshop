@@ -17,10 +17,10 @@ Navigate to the link, enter random text in firstname, lastname and address field
 8. Choose **once per minute** under **Run continuously** drop down. Ensure **Start immediately after creation** checkbox is checked
 ![Choose options](images/3.png)
 9. Leave **Data retention** option as it is
-10. Under **Data Storage**, select an S3 bucket that you want the file to be uploaded to and Canary result data to be stored.
-11. Under **Access permissions**, select **Create a new role** which will create a new IAM role for Canary execution.
+10. Under **Data Storage**, you should see an S3 bucket already chosen for you. Leave it as it is.
+11. Under **Access permissions**, select **Select an existing role** and select **Synthetics-Role**
 12. Click **Create canary**
-13. Wait for a minute or so for the Canary to start and execute. 
+13. Wait for a minute or so for the Canary to start and execute
 
 # Explore Canary results
 1. Navigate to [Canaries home page](https://console.aws.amazon.com/cloudwatch/home#synthetics:canary/list)
