@@ -7,7 +7,7 @@ Navigate to the link, enter random text in firstname, lastname and address field
 # Create a Canary
 1. Navigate to [CloudWatch Synthetics](https://us-east-2.console.aws.amazon.com/cloudwatch/home#synthetics:)
 2. Click on **Canaries**
-3. Click **Create Canary** and enter give it a unique name so there is no conflict with her lab users
+3. Click **Create Canary** and enter give it a unique name so there is no conflict with other lab users
 ![Create Canary](images/1.png)
 4. In the next screen, choose **Upload a Script** option
 ![Upload Script](images/2.png)
@@ -38,3 +38,10 @@ Navigate to the link, enter random text in firstname, lastname and address field
 11. Click on any dimension to check out the metrics the Canary is publishing. As always, you can click on a metric to create line graphs and also setup Anomaly Detection by clicking on the graph icon
 ![](images/7.png)
 ![](images/8.png)
+ 
+# Use case for Synthetics
+Amazon CloudWatch Synthetics enables you to create canaries to monitor your endpoints and APIs. Canaries are configurable scripts that follow the same routes and perform the same actions as a customer. This enables the outside-in view of your customers’ experiences, and your service’s availability from their point of view.
+
+You can run a canary once, or on a regular schedule. Scheduled canaries can run 24 hours a day, as often as once per minute. The canaries check the availability and latency of your endpoints, and can store load time data and screenshots of the UI.
+
+You can create canaries to test your applications automatically in production to identify problems in business functionalies before your customers are affected. Test API endpoints, user workflows, site responsiveness etc easily and collect execution results instantly. 
