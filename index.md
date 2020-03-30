@@ -7,7 +7,7 @@ Navigate to the link, enter random text in firstname, lastname and address field
 # Create a Canary
 1. Navigate to [CloudWatch Synthetics](https://us-east-2.console.aws.amazon.com/cloudwatch/home#synthetics:)
 2. Click on **Canaries**
-3. Click **Create Canary** and enter give it a unique name so there is no conflict with other lab users
+3. Click **Create Canary** and give it a unique name so there is no conflict with other lab users
 ![Create Canary](images/1.png)
 4. In the next screen, choose **Upload a Script** option
 ![Upload Script](images/2.png)
