@@ -7,7 +7,7 @@ Navigate to the link, enter random text in firstname, lastname and address field
 # Create a Canary
 1. Navigate to [CloudWatch Synthetics](https://us-east-2.console.aws.amazon.com/cloudwatch/home#synthetics:)
 2. Click on **Canaries**
-3. Click **Create Canary**
+3. Click **Create Canary** and enter give it a unique name so there is no conflict with her lab users
 ![Create Canary](images/1.png)
 4. In the next screen, choose **Upload a Script** option
 ![Upload Script](images/2.png)
@@ -33,8 +33,8 @@ Navigate to the link, enter random text in firstname, lastname and address field
 7. Go to **Logs** tab to see the details on each execution step. In particular, pay attention to how the error details as shown below. If you're exploring a failed result, you should see log entries similar to the one below
 ![Error](images/6.png)
 8. Now go to **Metrics** tab at the top left. Here you will see the Lambda execution metric widgets. This shows details about the Lambda function that was executed as part of the Canary.
-9.Navigate to **Configuration** tab and check out more details about the Canary and the Canary script
+9. Navigate to **Configuration** tab and check out more details about the Canary and the Canary script
 10. Go to [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch/home#metricsV2:). Click on **CloudWatchSynthetics** namespace
-10.Click on any dimension to check out the metrics the Canary is publishing. As always, you can click on a metric to create line graphs and also setup Anomaly Detection by clicking on the graph icon
+11. Click on any dimension to check out the metrics the Canary is publishing. As always, you can click on a metric to create line graphs and also setup Anomaly Detection by clicking on the graph icon
 ![](images/7.png)
 ![](images/8.png)
